@@ -8,3 +8,5 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+map("n", "<leader>gd", "<cmd>Telescope lsp_definitions<CR>")
+map("n", "<leader>gr", "<cmd>Telescope lsp_references<CR>")
