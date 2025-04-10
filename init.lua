@@ -36,3 +36,4 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+require ('nvim-treesitter.install').compilers = { 'zig' }
