@@ -22,3 +22,4 @@ map( "n" , "<leader>gp", function()
     require("nvchad.term").toggle { pos = "float", id = "floatTerm" }
     vim.fn.feedkeys("gulp --gdm-gproxy\r", "i")
 end, { desc = "terminal toggle floating term" })
+map("n", "<leader>de", "<cmd>lua vim.diagnostic.open_float()<CR>")
