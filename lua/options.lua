@@ -12,3 +12,9 @@ o.clipboard = "unnamedplus"
 
 local g = vim.g
 g.strip_whitespace_on_save = 1
+
+local opt = vim.opt
+opt.shell = "C:/Users/asante.azevedo/AppData/Local/Programs/Git/bin/bash.exe"
+opt.shellcmdflag = "-c"
+opt.shellquote = ""
+opt.shellxquote = ""
