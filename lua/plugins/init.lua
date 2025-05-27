@@ -42,18 +42,10 @@ return {
 
   {
   	"nvim-treesitter/nvim-treesitter",
-    enabled = false,
-  	-- opts = {
-  	-- 	ensure_installed = {
-  	-- 		"vim", "lua", "vimdoc",
-  	--     "html", "css"
-  	-- 	},
-  	-- },
-    -- enabled = false,
   	opts = {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
-  	    "html", "css", "python"
+  	    "html", "css", "typescript"
   		},
   	},
   },
